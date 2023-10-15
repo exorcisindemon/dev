@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import style from "../../components/app/he.module.css";
 import * as Unicons from "@iconscout/react-unicons";
 
@@ -14,8 +16,9 @@ export default function HE() {
           <span className="ml-2 animate-ping text-purple-400">|</span>
         </h1>
         <h2 className="mt-8 text-zinc-400 font-medium text-lg lg:text-2xl leading-relaxed lg:leading-relaxed tracking-tight">
-          Ras. As an Informatics Engineering student, I've had the privilege of
-          immersing myself in the world of technology and software development.
+          Ras. As an Informatics Engineering student, I&apos;ve had the
+          privilege of immersing myself in the world of technology and software
+          development.
         </h2>
         <div className="flex flex-row gap-4 w-full lg:w-auto overflow-x-auto lg:overflow-x-hidden">
           <Link
@@ -40,14 +43,14 @@ export default function HE() {
           />
         </div>
         <p className="mt-8 text-white font-semibold text-sm lg:text-lg leading-relaxed lg:leading-relaxed tracking-tight">
-          Fully handcrafted using Next.js by Ras at Semarang, Central
-          Java, Indonesia.
+          Fully handcrafted using Next.js by Ras at Semarang, Central Java,
+          Indonesia.
           <br />
           Credits to Unsplash for Images.
         </p>
       </div>
-      <div className="flex flex-col w-full lg:w-[40%] h-full justify-center overflow-y-hidden">
-        <img src="../mockup/cryptcen.svg" />
+      <div className="flex flex-col w-full lg:w-[30%] h-full justify-center overflow-y-hidden">
+        <Image src="../mockup/cryptcen.svg" width="560" height="860" alt="cryptcen" />
       </div>
     </main>
   );

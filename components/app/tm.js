@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import style from "../../components/app/tm.module.css";
 import * as Unicons from "@iconscout/react-unicons";
 
@@ -19,9 +21,12 @@ export default function TM() {
             />
           }
           cover={
-            <img
+            <Image
               className="mt-8 w-full rounded-2xl"
-              src="../pawel-czerwinski-aMPfitH2tT0-unsplash.jpg"
+              src="/pawel-czerwinski-aMPfitH2tT0-unsplash.jpg"
+              width="1920"
+              height="1080"
+              alt="askReactNext"
             />
           }
           thread={
@@ -44,9 +49,12 @@ export default function TM() {
             />
           }
           cover={
-            <img
+            <Image
               className="mt-8 w-full rounded-2xl"
-              src="../pawel-czerwinski-9yEDe2r3PcM-unsplash.jpg"
+              src="/pawel-czerwinski-9yEDe2r3PcM-unsplash.jpg"
+              width="1920"
+              height="1080"
+              alt="askUIUX"
             />
           }
           thread={
@@ -80,9 +88,12 @@ function BlockQuote({
     <blockquote className="bg-white flex flex-col p-8 w-full lg:w-[480px] rounded-2xl shadow-2xl shadow-zinc-600">
       <div className="flex flex-col lg:flex-row items-center justify-between">
         <div className="flex flex-col lg:flex-row gap-0 lg:gap-4 items-center">
-          <img
+          <Image
             className="w-16 rounded-full"
-            src="../avatar/364949757_818510079740755_8222179311779232246_n.jpg"
+            src="/avatar/364949757_818510079740755_8222179311779232246_n.jpg"
+            width="1080"
+            height="1080"
+            alt="profile"
           />
           <div className="flex flex-col items-center lg:items-start mt-4 lg:mt-0">
             <p className="text-purple-600 font-semibold text-lg leading-relaxed tracking-tight">
@@ -99,7 +110,10 @@ function BlockQuote({
       <div className="flex flex-col items-center lg:items-start mt-8">
         <p className="text-zinc-600 text-sm leading-relaxed tracking-tight text-justify mt-0">
           {thread}{" "}
-          <a className="text-purple-600 font-semibold transition-all hover:text-purple-700" href={contact}>
+          <a
+            className="text-purple-600 font-semibold transition-all hover:text-purple-700"
+            href={contact}
+          >
             I would like to spare my time, and lets talk about {subject}.
           </a>
         </p>

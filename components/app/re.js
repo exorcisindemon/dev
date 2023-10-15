@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import style from "../../components/app/re.module.css";
 
 export default function RE() {
@@ -6,7 +8,7 @@ export default function RE() {
       className={`${style.re} flex flex-col lg:flex-row w-full h-full px-8 py-8 lg:px-16 lg:py-16 gap-8 lg:gap-16 items-center justify-center`}
     >
       <div className="flex flex-col w-full lg:w-[40%] h-full justify-center overflow-y-hidden">
-        <img src="../sigmund-mFcsYcSSiMQ-unsplash.jpg" />
+        <Image src="/sigmund-mFcsYcSSiMQ-unsplash.jpg" width="3024" height="3024" alt="cover" />
       </div>
       <div className="flex flex-col gap-8 w-full lg:w-[60%]">
         <h1 className="text-white font-semibold text-4xl leading-relaxed tracking-tight">
