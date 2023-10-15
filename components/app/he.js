@@ -50,7 +50,7 @@ export default function HE() {
         </p>
       </div>
       <div className="flex flex-col w-full lg:w-[30%] h-full justify-center overflow-y-hidden">
-        <Image src="../mockup/cryptcen.svg" width="560" height="860" alt="cryptcen" />
+        <Image src="../mockup/cryptcen.svg" width="1680" height="2580" alt="cryptcen" />
       </div>
     </main>
   );
