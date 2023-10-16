@@ -16,10 +16,10 @@ export default function SK() {
             height="2400"
             alt="reactJs"
           />
-          <p className="mx-8 mt-8 text-[#DDE8EB] font-semibold text-2xl leading-relaxed tracking-tight">
+          <p className="mx-8 mt-8 text-[#DDE8EB] font-semibold text-lg lg:text-2xl leading-relaxed lg:leading-relaxed tracking-tight">
             React.js
           </p>
-          <p className="mx-8 mt-4 text-zinc-400 font-medium text-lg leading-relaxed tracking-tight text-justify">
+          <p className="mx-8 mt-4 text-zinc-400 font-medium text-sm lg:text-lg leading-relaxed lg:leading-relaxed tracking-tight text-justify">
             No one shall be subjected to arbitrary arrest, detention or exile.
           </p>
           <Expand href={"/"} />
@@ -31,10 +31,10 @@ export default function SK() {
             height="2121"
             alt="nextJs"
           />
-          <p className="mx-8 mt-8 text-[#A526B6] font-semibold text-2xl leading-relaxed tracking-tight">
+          <p className="mx-8 mt-8 text-[#A526B6] font-semibold text-lg lg:text-2xl leading-relaxed lg:leading-relaxed tracking-tight">
             Next.js
           </p>
-          <p className="mx-8 mt-4 text-zinc-400 font-medium text-lg leading-relaxed tracking-tight text-justify">
+          <p className="mx-8 mt-4 text-zinc-400 font-medium text-sm lg:text-lg leading-relaxed lg:leading-relaxed tracking-tight text-justify">
             No one shall be subjected to arbitrary arrest, detention or exile.
           </p>
           <Expand href={"/"} />
@@ -46,10 +46,10 @@ export default function SK() {
             height="2400"
             alt="tailwindCSS"
           />
-          <p className="mx-8 mt-8 text-[#09B1E1] font-semibold text-2xl leading-relaxed tracking-tight">
+          <p className="mx-8 mt-8 text-[#09B1E1] font-semibold text-lg lg:text-2xl leading-relaxed lg:leading-relaxed tracking-tight">
             Tailwind CSS
           </p>
-          <p className="mx-8 mt-4 text-zinc-400 font-medium text-lg leading-relaxed tracking-tight text-justify">
+          <p className="mx-8 mt-4 text-zinc-400 font-medium text-sm lg:text-lg leading-relaxed lg:leading-relaxed tracking-tight text-justify">
             No one shall be subjected to arbitrary arrest, detention or exile.
           </p>
           <Expand href={"/"} />
@@ -61,10 +61,10 @@ export default function SK() {
             height="1600"
             alt="SASS"
           />
-          <p className="mx-8 mt-8 text-[#D75264] font-semibold text-2xl leading-relaxed tracking-tight">
+          <p className="mx-8 mt-8 text-[#D75264] font-semibold text-lg lg:text-2xl leading-relaxed lg:leading-relaxed tracking-tight">
             SASS
           </p>
-          <p className="mx-8 mt-4 text-zinc-400 font-medium text-lg leading-relaxed tracking-tight text-justify">
+          <p className="mx-8 mt-4 text-zinc-400 font-medium text-sm lg:text-lg leading-relaxed lg:leading-relaxed tracking-tight text-justify">
             No one shall be subjected to arbitrary arrest, detention or exile.
           </p>
           <Expand href={"/"} />
@@ -78,10 +78,11 @@ function Expand({ href, description, unicons }) {
   return (
     <a
       href={href}
-      className="flex flex-row gap-4 mx-8 mb-8 mt-4 text-white font-medium text-lg leading-relaxed tracking-tight items-center transition-all hover:text-purple-400"
+      className="flex flex-row gap-4 mx-8 mb-8 mt-4 text-white font-medium text-sm lg:text-lg leading-relaxed tracking-tight items-center transition-all hover:text-purple-400"
     >
       Expand
-      <Unicons.UilArrowUpRight size="22" />
+      <Unicons.UilArrowUpRight className="flex lg:hidden" size="18" />
+      <Unicons.UilArrowUpRight className="hidden lg:flex" size="22" />
     </a>
   );
 }

@@ -11,36 +11,49 @@ export default function NV() {
       <div className="flex flex-col lg:flex-row w-full lg:w-auto gap-8 mt-8 lg:mt-0 items-start lg:items-center justify-end">
         <Section
           name={"Profile"}
-          unicons={<Unicons.UilUserCircle size="20" />}
+          sunicons={
+            <Unicons.UilUserCircle className="flex lg:hidden" size="20" />
+          }
+          lunicons={
+            <Unicons.UilUserCircle className="hidden lg:flex" size="22" />
+          }
         />
         <Section
           name={"Frontend Projects"}
-          unicons={<Unicons.UilArrow size="20" />}
+          sunicons={<Unicons.UilArrow className="flex lg:hidden" size="20" />}
+          lunicons={<Unicons.UilArrow className="hidden lg:flex" size="22" />}
         />
         <Section
           name={"UI/UX Design"}
-          unicons={<Unicons.UilPalette size="20" />}
+          sunicons={<Unicons.UilPalette className="flex lg:hidden" size="20" />}
+          lunicons={<Unicons.UilPalette className="hidden lg:flex" size="22" />}
         />
         <Section
           name={"Collaborate"}
-          unicons={<Unicons.UilUsersAlt size="20" />}
+          sunicons={<Unicons.UilUsersAlt className="flex lg:hidden" size="20" />}
+          lunicons={<Unicons.UilUsersAlt className="hidden lg:flex" size="22" />}
         />
-        <Section name={"Contact"} unicons={<Unicons.UilAt size="20" />} />
+        <Section
+          name={"Contact"}
+          sunicons={<Unicons.UilAt className="flex lg:hidden" size="20" />}
+          lunicons={<Unicons.UilAt className="hidden lg:flex" size="22" />}
+        />
       </div>
     </main>
   );
 }
 
-function Section({ name, unicons }) {
+function Section({ name, sunicons, lunicons }) {
   return (
     <a
       href="/"
       className="transition-all text-white hover:text-purple-400 flex flex-row gap-4 w-full lg:w-auto items-center justify-between"
     >
-      <p className="flex lg:hidden text-base lg:text-lg leading-relaxed lg:leading-relaxed tracking-tight">
+      <p className="flex lg:hidden text-sm lg:text-lg leading-relaxed lg:leading-relaxed tracking-tight">
         {name}
       </p>
-      {unicons}
+      {sunicons}
+      {lunicons}
     </a>
   );
 }

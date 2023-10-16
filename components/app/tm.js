@@ -8,7 +8,7 @@ export default function TM() {
     <main
       className={`${style.tm} flex flex-col w-full h-full px-8 py-8 lg:px-16 lg:py-16 gap-8 lg:gap-16 items-center justify-center`}
     >
-      <p className="text-white font-semibold text-4xl leading-relaxed tracking-tight">
+      <p className="text-white font-semibold text-2xl lg:text-4xl leading-relaxed lg:leading-relaxed tracking-tight">
         Ask Something?
       </p>
       <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
