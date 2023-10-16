@@ -6,7 +6,7 @@ export default function PR() {
     <main
       className={`${style.pr} flex flex-col lg:flex-row w-full h-full px-8 py-8 lg:px-16 lg:py-16 gap-8 lg:gap-16 items-center justify-center`}
     >
-      <div className="flex flex-col gap-0 lg:gap-16">
+      <div className="flex flex-col w-full h-full justify-normal lg:justify-between gap-0 lg:gap-16">
         <div className="flex flex-col gap-4 lg:gap-8">
           <p className="text-white font-semibold text-start lg:text-start w-full text-2xl lg:text-4xl leading-relaxed lg:leading-relaxed tracking-tight">
             Latest Frontend Projects
@@ -32,7 +32,7 @@ export default function PR() {
           />
         </div>
       </div>
-      <div className="flex flex-col lg:flex-col-reverse gap-0 lg:gap-16">
+      <div className="flex flex-col lg:flex-col-reverse w-full h-full justify-normal lg:justify-between gap-0 lg:gap-16">
         <div className="flex flex-col gap-4 lg:gap-8">
           <p className="text-white font-semibold text-start lg:text-end w-full text-2xl lg:text-4xl leading-relaxed tracking-tight">
             Latest UI/UX Projects
