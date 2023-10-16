@@ -20,14 +20,14 @@ export default function PR() {
             title={"Reserva"}
             category={"Next.js Ongoing Project"}
             description={
-              "No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him."
+              "In the ever-evolving world of scientific research and experimentation, maintaining precise control over equipment, consumables, and data is paramount. Reserva is here to help you meet these challenges head-on and transform your laboratory operations."
             }
           />
           <Project
             title={"Travl"}
             category={"Next.js Ongoing Project"}
             description={
-              "No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him."
+              "Introducing Travl: Your Passport to Seamless Travel Experiences. In a world constantly on the move, where wanderlust knows no boundaries, there is one app that stands out as your trusted companion on the journey of a lifetime."
             }
           />
         </div>
@@ -46,14 +46,14 @@ export default function PR() {
             title={"LINE"}
             category={"UI/UX Ongoing Project"}
             description={
-              "No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him."
+              "Introducing the iOS app UI/UX design for the LINE social media platform, where innovation meets user-centricity to redefine the way we connect and communicate in the digital age. From streamlined navigation to eye-catching visuals, I'm proud to showcase a design that fosters seamless connections and fosters meaningful interactions."
             }
           />
           <Project
             title={"CryptCen"}
             category={"UI/UX Ongoing Project"}
             description={
-              "No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him."
+              "CryptCen is more than just an app; it is your gateway to a seamless and innovative crypto asset management experience. Inviting you to explore our iOS app and discover how it can empower you on your crypto journey. Stay ahead of the curve with CryptCen and revolutionize the way you manage your digital wealth."
             }
           />
         </div>

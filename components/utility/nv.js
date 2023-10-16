@@ -2,11 +2,11 @@ import * as Unicons from "@iconscout/react-unicons";
 
 export default function NV() {
   return (
-    <main className="bg-black text-white flex flex-col lg:flex-row w-full items-center justify-center text-base lg:text-lg gap-0 lg:gap-8 px-8 py-8 lg:px-16 lg:py-6">
+    <main className="bg-black text-white flex flex-col lg:flex-row w-full items-center justify-center gap-0 lg:gap-8 px-8 py-8 lg:px-16 lg:py-6">
       <input
-        className="transition-all bg-zinc-900 hover:bg-zinc-800 focus:bg-zinc-800 focus:outline-none text-white p-4 lg:px-4 lg:py-2 w-full lg:w-64 lg:hover:w-96 lg:focus:w-96 rounded-2xl"
+        className="transition-all bg-zinc-900 hover:bg-zinc-800 focus:bg-zinc-800 focus:outline-none text-white p-4 lg:px-4 lg:py-2 text-sm lg:text-lg w-full lg:w-72 lg:hover:w-96 lg:focus:w-96 rounded-2xl"
         type="text"
-        placeholder="Search anything .."
+        placeholder="Search bar isn&apos;t available .."
       />
       <div className="flex flex-col lg:flex-row w-full lg:w-auto gap-8 mt-8 lg:mt-0 items-start lg:items-center justify-end">
         <Section

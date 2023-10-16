@@ -20,7 +20,9 @@ export default function SK() {
             React.js
           </p>
           <p className="mx-8 mt-4 text-zinc-400 font-medium text-sm lg:text-lg leading-relaxed lg:leading-relaxed tracking-tight text-justify">
-            No one shall be subjected to arbitrary arrest, detention or exile.
+            JavaScript Fundamentals, JSX, Rendering, Hooks, Props, Functional
+            Components, Class Components, RRD, Styling in React, API Calls,
+            Deployments.
           </p>
           <Expand href={"/"} />
         </div>
@@ -35,7 +37,9 @@ export default function SK() {
             Next.js
           </p>
           <p className="mx-8 mt-4 text-zinc-400 font-medium text-sm lg:text-lg leading-relaxed lg:leading-relaxed tracking-tight text-justify">
-            No one shall be subjected to arbitrary arrest, detention or exile.
+            React Fundamentals, Node.js, NPM, ES7, Server-Side Rendering, Pages
+            and Routing, Layouts and Components, Data Fetching, API Routes,
+            Environment Variables, Performance Optimization, Deployments.
           </p>
           <Expand href={"/"} />
         </div>
@@ -50,7 +54,9 @@ export default function SK() {
             Tailwind CSS
           </p>
           <p className="mx-8 mt-4 text-zinc-400 font-medium text-sm lg:text-lg leading-relaxed lg:leading-relaxed tracking-tight text-justify">
-            No one shall be subjected to arbitrary arrest, detention or exile.
+            Basic Concepts, Utility Classes, Responsive Design, Customization,
+            Layouts and Grids, Optimization, Form Styling, Transitions and
+            Animations, Theming.
           </p>
           <Expand href={"/"} />
         </div>
@@ -65,7 +71,8 @@ export default function SK() {
             SASS
           </p>
           <p className="mx-8 mt-4 text-zinc-400 font-medium text-sm lg:text-lg leading-relaxed lg:leading-relaxed tracking-tight text-justify">
-            No one shall be subjected to arbitrary arrest, detention or exile.
+            Syntax, Nesting, Partials and Import, Functions, Responsive Design,
+            Performance Optimization.
           </p>
           <Expand href={"/"} />
         </div>

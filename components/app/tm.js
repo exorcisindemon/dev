@@ -16,8 +16,8 @@ export default function TM() {
           specialization={"React.js, Next.js Dev."}
           unicons={
             <Unicons.UilArrow
-              className="hidden lg:flex mt-4 lg:mt-0"
-              size="22"
+              className="text-purple-400 hidden lg:flex mt-4 lg:mt-0"
+              size="18"
             />
           }
           cover={
@@ -44,8 +44,8 @@ export default function TM() {
           specialization={"iOS App UI/UX Designer"}
           unicons={
             <Unicons.UilPalette
-              className="hidden lg:flex mt-4 lg:mt-0"
-              size="22"
+              className="text-purple-400 hidden lg:flex mt-4 lg:mt-0"
+              size="18"
             />
           }
           cover={
@@ -85,7 +85,7 @@ function BlockQuote({
   app,
 }) {
   return (
-    <blockquote className="bg-white flex flex-col p-8 w-full lg:w-[480px] rounded-2xl shadow-2xl shadow-zinc-600">
+    <blockquote className="bg-black flex flex-col p-8 w-full lg:w-[480px] rounded-2xl shadow-2xl shadow-zinc-800">
       <div className="flex flex-col lg:flex-row items-center justify-between">
         <div className="flex flex-col lg:flex-row gap-0 lg:gap-4 items-center">
           <Image
@@ -96,10 +96,10 @@ function BlockQuote({
             alt="profile"
           />
           <div className="flex flex-col items-center lg:items-start mt-4 lg:mt-0">
-            <p className="text-purple-600 font-semibold text-lg leading-relaxed tracking-tight">
-              Ras<span className="ml-2 text-black">(@sievl)</span>
+            <p className="text-purple-400 font-semibold text-lg leading-relaxed tracking-tight">
+              Ras<span className="ml-2 text-white">(@sievl)</span>
             </p>
-            <p className="text-zinc-600 font-medium text-sm leading-relaxed tracking-tight">
+            <p className="text-zinc-400 font-medium text-sm leading-relaxed tracking-tight">
               {specialization}
             </p>
           </div>
@@ -108,19 +108,19 @@ function BlockQuote({
       </div>
       {cover}
       <div className="flex flex-col items-center lg:items-start mt-8">
-        <p className="text-zinc-600 text-sm leading-relaxed tracking-tight text-justify mt-0">
+        <p className="text-zinc-400 text-sm leading-relaxed tracking-tight text-justify mt-0">
           {thread}{" "}
           <a
-            className="text-purple-600 font-semibold transition-all hover:text-purple-700"
+            className="text-purple-400 font-semibold transition-all hover:text-purple-500"
             href={contact}
           >
             I would like to spare my time, and lets talk about {subject}.
           </a>
         </p>
-        <p className="text-zinc-600 text-sm leading-relaxed tracking-tight mt-8">
+        <p className="text-zinc-400 text-sm leading-relaxed tracking-tight mt-8">
           At {date} - {time}
         </p>
-        <p className="text-black font-semibold text-sm leading-relaxed tracking-tight mt-0">
+        <p className="text-white font-semibold text-sm leading-relaxed tracking-tight mt-0">
           Uploaded using {app} App
         </p>
       </div>
