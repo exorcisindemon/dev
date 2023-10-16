@@ -23,23 +23,23 @@ export default function HE() {
         <div className="flex flex-row gap-4 w-full lg:w-auto overflow-x-auto lg:overflow-x-hidden">
           <Link
             href={"https://github.com/sievl"}
-            unicons={<Unicons.UilGithubAlt />}
+            unicons={<Unicons.UilGithubAlt size="22" />}
           />
           <Link
             href={"https://www.instagram.com/rasxev/"}
-            unicons={<Unicons.UilInstagram />}
+            unicons={<Unicons.UilInstagram size="22" />}
           />
           <Link
             href={"mailto:cseira@outlook.com"}
-            unicons={<Unicons.UilEnvelope />}
+            unicons={<Unicons.UilEnvelope size="22" />}
           />
           <Link
             href={"https://t.me/rasxev"}
-            unicons={<Unicons.UilTelegramAlt />}
+            unicons={<Unicons.UilTelegramAlt size="22" />}
           />
           <Link
             href={"https://twitter.com/ccsievl"}
-            unicons={<Unicons.UilTwitterAlt />}
+            unicons={<Unicons.UilTwitterAlt size="22" />}
           />
         </div>
         <p className="mt-8 text-white font-semibold text-sm lg:text-lg leading-relaxed lg:leading-relaxed tracking-tight">
@@ -50,7 +50,12 @@ export default function HE() {
         </p>
       </div>
       <div className="flex flex-col w-full lg:w-[30%] h-full justify-center overflow-y-hidden">
-        <Image src="../mockup/cryptcen.svg" width="1680" height="2580" alt="cryptcen" />
+        <Image
+          src="../mockup/cryptcen.svg"
+          width="1680"
+          height="2580"
+          alt="cryptcen"
+        />
       </div>
     </main>
   );
@@ -60,7 +65,7 @@ function Link({ href, unicons }) {
   return (
     <a
       href={href}
-      className="transition-all hover:bg-purple-800 mt-8 p-4 rounded-2xl bg-zinc-900 text-white"
+      className="transition-all hover:bg-purple-400 mt-8 p-4 rounded-2xl bg-zinc-900 text-white"
     >
       {unicons}
     </a>
