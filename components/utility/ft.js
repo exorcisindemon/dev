@@ -103,22 +103,22 @@ export default function FT() {
             LINK
           </p>
           <div className="flex flex-row w-full lg:w-auto gap-8 items-center justify-end lg:justify-start">
-            <a className="text-zinc-400" href="https://github.com/sievl">
+            <a className="text-zinc-400 transition-all hover:text-purple-400" href="https://github.com/sievl">
               <Unicons.UilGithubAlt size="22" />
             </a>
             <a
-              className="text-zinc-400"
+              className="text-zinc-400 transition-all hover:text-purple-400"
               href="https://www.instagram.com/rasxev/"
             >
               <Unicons.UilInstagram size="22" />
             </a>
-            <a className="text-zinc-400" href="mailto:cseira@outlook.com">
+            <a className="text-zinc-400 transition-all hover:text-purple-400" href="mailto:cseira@outlook.com">
               <Unicons.UilEnvelope size="22" />
             </a>
-            <a className="text-zinc-400" href="https://t.me/rasxev">
+            <a className="text-zinc-400 transition-all hover:text-purple-400" href="https://t.me/rasxev">
               <Unicons.UilTelegramAlt size="22" />
             </a>
-            <a className="text-zinc-400" href="https://twitter.com/ccsievl">
+            <a className="text-zinc-400 transition-all hover:text-purple-400" href="https://twitter.com/ccsievl">
               <Unicons.UilTwitterAlt size="22" />
             </a>
           </div>

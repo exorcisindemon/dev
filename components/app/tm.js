@@ -111,7 +111,7 @@ function BlockQuote({
         <p className="text-zinc-400 text-sm leading-relaxed tracking-tight text-justify mt-0">
           {thread}{" "}
           <a
-            className="text-purple-400 font-semibold transition-all hover:text-purple-500"
+            className="text-purple-400 font-semibold transition-all hover:text-purple-600"
             href={contact}
           >
             I would like to spare my time, and lets talk about {subject}.
