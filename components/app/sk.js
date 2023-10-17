@@ -88,8 +88,8 @@ function Expand({ href, description, unicons }) {
       className="flex flex-row gap-4 mx-8 mb-8 mt-4 text-white font-medium text-sm lg:text-lg leading-relaxed tracking-tight items-center transition-all hover:text-purple-400"
     >
       Expand
-      <Unicons.UilArrowUpRight className="flex lg:hidden" size="18" />
-      <Unicons.UilArrowUpRight className="hidden lg:flex" size="22" />
+      <Unicons.UilArrowRight className="flex lg:hidden" size="18" />
+      <Unicons.UilArrowRight className="hidden lg:flex" size="22" />
     </a>
   );
 }

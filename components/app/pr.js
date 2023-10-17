@@ -38,7 +38,7 @@ export default function PR() {
             Latest UI/UX Projects
           </p>
           <p className="text-zinc-400 font-semibold text-start lg:text-end w-full text-lg lg:text-2xl leading-relaxed tracking-tight">
-            Get Inspired by the Newest UI/UX Developments
+            Get Inspired By the Newest UI/UX Developments
           </p>
         </div>
         <div className="flex flex-col lg:flex-row gap-0 lg:gap-16 w-full">
@@ -86,8 +86,8 @@ function SeeProject({ href }) {
       className="flex flex-row gap-4 mx-8 mb-8 mt-4 text-white font-medium text-sm lg:text-lg leading-relaxed lg:leading-relaxed tracking-tight items-center transition-all hover:text-purple-400"
     >
       See Project
-      <Unicons.UilArrowRight className="flex lg:hidden" size="18" />
-      <Unicons.UilArrowRight className="hidden lg:flex" size="22" />
+      <Unicons.UilArrowUpRight className="flex lg:hidden" size="18" />
+      <Unicons.UilArrowUpRight className="hidden lg:flex" size="22" />
     </a>
   );
 }

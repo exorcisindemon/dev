@@ -19,14 +19,9 @@ export default function NV() {
           }
         />
         <Section
-          name={"Frontend Projects"}
-          sunicons={<Unicons.UilArrow className="flex lg:hidden" size="20" />}
-          lunicons={<Unicons.UilArrow className="hidden lg:flex" size="22" />}
-        />
-        <Section
-          name={"UI/UX Design"}
-          sunicons={<Unicons.UilPalette className="flex lg:hidden" size="20" />}
-          lunicons={<Unicons.UilPalette className="hidden lg:flex" size="22" />}
+          name={"Projects"}
+          sunicons={<Unicons.UilApps className="flex lg:hidden" size="20" />}
+          lunicons={<Unicons.UilApps className="hidden lg:flex" size="22" />}
         />
         <Section
           name={"Collaborate"}
