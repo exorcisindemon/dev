@@ -4,7 +4,7 @@ export default function FT() {
   return (
     <main className="bg-zinc-950 flex flex-col lg:flex-row w-full h-full px-8 py-8 lg:px-16 lg:py-16 gap-8 lg:gap-16 items-center justify-center">
       <div className="flex flex-col w-full h-full justify-normal lg:justify-between gap-0">
-        <div className="grid grid-cols-2 lg:flex lg:flex-row gap-8 lg:gap-16 w-full lg:w-auto">
+        <div className="grid grid-cols-2 lg:flex lg:flex-row items-start justify-center gap-8 lg:gap-16 w-full lg:w-auto">
           <div className="flex flex-col w-full lg:w-[10%] justify-start">
             <p className="w-full mt-0 text-white font-semibold text-lg leading-relaxed tracking-tight">
               HE
@@ -96,31 +96,6 @@ export default function FT() {
                 X
               </p>
             </div>
-          </div>
-        </div>
-        <div className="flex flex-row w-full lg:w-auto mt-8 lg:mt-16 gap-8 items-center justify-between lg:justify-start overflow-x-auto">
-          <p className="w-auto mt-0 text-white font-semibold text-lg leading-relaxed tracking-tight">
-            LINK
-          </p>
-          <div className="flex flex-row w-full lg:w-auto gap-8 items-center justify-end lg:justify-start">
-            <a className="text-zinc-400 transition-all hover:text-purple-400" href="https://github.com/sievl">
-              <Unicons.UilGithubAlt size="22" />
-            </a>
-            <a
-              className="text-zinc-400 transition-all hover:text-purple-400"
-              href="https://www.instagram.com/rasxev/"
-            >
-              <Unicons.UilInstagram size="22" />
-            </a>
-            <a className="text-zinc-400 transition-all hover:text-purple-400" href="mailto:poxcia@outlook.com">
-              <Unicons.UilEnvelope size="22" />
-            </a>
-            <a className="text-zinc-400 transition-all hover:text-purple-400" href="https://t.me/rasxev">
-              <Unicons.UilTelegramAlt size="22" />
-            </a>
-            <a className="text-zinc-400 transition-all hover:text-purple-400" href="https://twitter.com/ccsievl">
-              <Unicons.UilTwitterAlt size="22" />
-            </a>
           </div>
         </div>
       </div>
