@@ -10,7 +10,7 @@ export default function HE() {
     >
       <div className="flex flex-col w-full lg:w-[40%] lg:pb-8">
         <h1 className="text-white font-semibold text-2xl lg:text-4xl leading-relaxed lg:leading-relaxed tracking-tight">
-          JSX. The <span className="text-purple-400">React.js</span> Maven,{" "}
+        The <span className="text-purple-400">JSX</span>. The <span className="text-purple-400">React.js</span> Maven,{" "}
           <span className="text-purple-400">Next.js</span> Virtuoso, and the iOS
           App Enchantress of <span className="text-purple-400">UI/UX</span>
           <span className="ml-2 animate-ping text-purple-400">|</span>
