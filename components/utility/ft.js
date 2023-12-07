@@ -112,7 +112,7 @@ export default function FT() {
             >
               <Unicons.UilInstagram size="22" />
             </a>
-            <a className="text-zinc-400 transition-all hover:text-purple-400" href="mailto:cseira@outlook.com">
+            <a className="text-zinc-400 transition-all hover:text-purple-400" href="mailto:poxcia@outlook.com">
               <Unicons.UilEnvelope size="22" />
             </a>
             <a className="text-zinc-400 transition-all hover:text-purple-400" href="https://t.me/rasxev">

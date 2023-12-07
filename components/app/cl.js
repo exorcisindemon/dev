@@ -1,4 +1,4 @@
-import style from "../../shared/module/controller.module.css"
+import style from "../../shared/module/controller.module.css";
 import * as Unicons from "@iconscout/react-unicons";
 
 export default function CL() {
@@ -28,8 +28,8 @@ export default function CL() {
           />
           <Collaborate
             title={"X"}
-            description={"@ccsievl"}
-            href={"https://twitter.com/ccsievl"}
+            description={"@CCRSXNT"}
+            href={"https://twitter.com/CCRSXNT"}
           />
         </div>
       </div>

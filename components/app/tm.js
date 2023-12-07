@@ -1,7 +1,10 @@
 import Image from "next/image";
 
-import style from "../../shared/module/controller.module.css"
+import style from "../../shared/module/controller.module.css";
 import * as Unicons from "@iconscout/react-unicons";
+
+import AskReactNext from "../../shared/assets/rue-s-XivbqAPEoJg-unsplash.jpg";
+import AskUIUX from "../../shared/assets/brandon-vazquez-koC5eG6v6ew-unsplash.jpg";
 
 export default function TM() {
   return (
@@ -23,7 +26,7 @@ export default function TM() {
           cover={
             <Image
               className="mt-8 w-full rounded-2xl"
-              src="/pawel-czerwinski-aMPfitH2tT0-unsplash.jpg"
+              src={AskReactNext}
               width="1920"
               height="1080"
               alt="askReactNext"
@@ -51,7 +54,7 @@ export default function TM() {
           cover={
             <Image
               className="mt-8 w-full rounded-2xl"
-              src="/pawel-czerwinski-9yEDe2r3PcM-unsplash.jpg"
+              src={AskUIUX}
               width="1920"
               height="1080"
               alt="askUIUX"
@@ -85,7 +88,7 @@ function BlockQuote({
   app,
 }) {
   return (
-    <blockquote className="bg-black flex flex-col p-8 w-full lg:w-[480px] rounded-2xl shadow-2xl shadow-purple-950">
+    <blockquote className="bg-black flex flex-col p-8 w-full lg:w-[480px] rounded-2xl">
       <div className="flex flex-col lg:flex-row items-center justify-between">
         <div className="flex flex-col lg:flex-row gap-0 lg:gap-4 items-center">
           <Image
@@ -118,7 +121,7 @@ function BlockQuote({
           </a>
         </p>
         <p className="text-zinc-400 text-sm leading-relaxed tracking-tight mt-8">
-          At {date} - {time}
+          {date} - {time}
         </p>
         <p className="text-white font-semibold text-sm leading-relaxed tracking-tight mt-0">
           Uploaded using {app} App

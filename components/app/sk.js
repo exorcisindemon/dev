@@ -1,7 +1,12 @@
 import Image from "next/image";
 
-import style from "../../shared/module/controller.module.css"
+import style from "../../shared/module/controller.module.css";
 import * as Unicons from "@iconscout/react-unicons";
+
+import SkillReact from "../../shared/assets/annie-spratt-oCqCLEPOf40-unsplash.jpg";
+import SkillNext from "../../shared/assets/deleece-cook-TQ8lA-Rvrxw-unsplash.jpg";
+import SkillTailwindCSS from "../../shared/assets/kenrick-mills-NJtPiWB3ADY-unsplash.jpg";
+import SkillSASS from "../../shared/assets/deleece-cook-Vi-1ocl1e1o-unsplash.jpg";
 
 export default function SK() {
   return (
@@ -10,12 +15,7 @@ export default function SK() {
     >
       <div className="flex flex-col lg:flex-row gap-0 lg:gap-16 w-full">
         <div className="flex flex-col w-full items-start justify-start ring-1 ring-[#DDE8EB] lg:ring-zinc-800 mt-0 lg:mt-0 transition-all hover:lg:ring-1 hover:lg:ring-[#DDE8EB]">
-          <Image
-            src="/annie-spratt-oCqCLEPOf40-unsplash.jpg"
-            width="2400"
-            height="2400"
-            alt="reactJs"
-          />
+          <Image src={SkillReact} width="2400" height="2400" alt="reactJs" />
           <p className="mx-8 mt-8 text-[#DDE8EB] font-semibold text-lg lg:text-2xl leading-relaxed lg:leading-relaxed tracking-tight">
             React.js
           </p>
@@ -27,12 +27,7 @@ export default function SK() {
           <Expand href={"/"} />
         </div>
         <div className="flex flex-col w-full items-start justify-start ring-1 ring-[#A526B6] lg:ring-zinc-800 mt-8 lg:mt-0 transition-all hover:lg:ring-1 hover:lg:ring-[#A526B6]">
-          <Image
-            src="/deleece-cook-TQ8lA-Rvrxw-unsplash.jpg"
-            width="2121"
-            height="2121"
-            alt="nextJs"
-          />
+          <Image src={SkillNext} width="2121" height="2121" alt="nextJs" />
           <p className="mx-8 mt-8 text-[#A526B6] font-semibold text-lg lg:text-2xl leading-relaxed lg:leading-relaxed tracking-tight">
             Next.js
           </p>
@@ -45,7 +40,7 @@ export default function SK() {
         </div>
         <div className="flex flex-col w-full items-start justify-start ring-1 ring-[#09B1E1] lg:ring-zinc-800 mt-8 lg:mt-0 transition-all hover:lg:ring-1 hover:lg:ring-[#09B1E1]">
           <Image
-            src="/kenrick-mills-NJtPiWB3ADY-unsplash.jpg"
+            src={SkillTailwindCSS}
             width="2400"
             height="2400"
             alt="tailwindCSS"
@@ -61,12 +56,7 @@ export default function SK() {
           <Expand href={"/"} />
         </div>
         <div className="flex flex-col w-full items-start justify-start ring-1 ring-[#D75264] lg:ring-zinc-800 mt-8 lg:mt-0 transition-all hover:lg:ring-1 hover:lg:ring-[#D75264]">
-          <Image
-            src="/deleece-cook-Vi-1ocl1e1o-unsplash.jpg"
-            width="1600"
-            height="1600"
-            alt="SASS"
-          />
+          <Image src={SkillSASS} width="1600" height="1600" alt="SASS" />
           <p className="mx-8 mt-8 text-[#D75264] font-semibold text-lg lg:text-2xl leading-relaxed lg:leading-relaxed tracking-tight">
             SASS
           </p>
