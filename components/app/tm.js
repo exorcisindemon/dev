@@ -11,7 +11,7 @@ export default function TM() {
       <p className="text-white font-semibold text-2xl lg:text-4xl leading-relaxed lg:leading-relaxed tracking-tight">
         Ask Something?
       </p>
-      <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 overflow-y-auto">
+      <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
         <BlockQuote
           specialization={"React.js, Next.js Dev."}
           unicons={
