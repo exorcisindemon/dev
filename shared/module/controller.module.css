@@ -1,0 +1,25 @@
+.cl {
+  background-color: #000000;
+}
+
+.he {
+  background-color: black;
+}
+
+.pr {
+  background-color: black;
+}
+
+.re {
+  background-color: #09090b;
+}
+
+.sk {
+  background-color: #09090b;
+}
+
+.tm {
+  background-image: url("../../public/pawel-czerwinski-PvgqqicSLvA-unsplash.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}

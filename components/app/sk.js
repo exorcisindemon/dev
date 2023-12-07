@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import style from "../../components/app/sk.module.css";
+import style from "../../shared/module/controller.module.css"
 import * as Unicons from "@iconscout/react-unicons";
 
 export default function SK() {

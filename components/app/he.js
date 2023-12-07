@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import style from "../../components/app/he.module.css";
+import style from "../../shared/module/controller.module.css"
 import * as Unicons from "@iconscout/react-unicons";
 
 export default function HE() {
@@ -45,8 +45,6 @@ export default function HE() {
         <p className="mt-8 text-white font-semibold text-sm lg:text-lg leading-relaxed lg:leading-relaxed tracking-tight">
           Fully handcrafted using Next.js by Ras at Semarang, Central Java,
           Indonesia.
-          <br />
-          Credits to Unsplash for Images.
         </p>
       </div>
       <div className="flex flex-col w-full lg:w-[30%] h-full justify-center overflow-y-hidden">

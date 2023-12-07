@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import style from "../../components/app/re.module.css";
+import style from "../../shared/module/controller.module.css"
 
 export default function RE() {
   return (

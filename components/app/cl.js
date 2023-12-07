@@ -1,4 +1,4 @@
-import style from "../../components/app/cl.module.css";
+import style from "../../shared/module/controller.module.css"
 import * as Unicons from "@iconscout/react-unicons";
 
 export default function CL() {

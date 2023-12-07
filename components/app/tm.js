@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import style from "../../components/app/tm.module.css";
+import style from "../../shared/module/controller.module.css"
 import * as Unicons from "@iconscout/react-unicons";
 
 export default function TM() {
@@ -11,7 +11,7 @@ export default function TM() {
       <p className="text-white font-semibold text-2xl lg:text-4xl leading-relaxed lg:leading-relaxed tracking-tight">
         Ask Something?
       </p>
-      <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
+      <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 overflow-y-auto">
         <BlockQuote
           specialization={"React.js, Next.js Dev."}
           unicons={
