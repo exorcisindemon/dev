@@ -6,7 +6,7 @@ import * as Unicons from "@iconscout/react-unicons";
 export default function TM() {
   return (
     <main
-      className={`${style.tm} flex flex-col w-full h-screen lg:h-full px-8 py-8 lg:px-16 lg:py-16 gap-8 lg:gap-16 items-center justify-center`}
+      className={`${style.tm} flex flex-col w-full h-full px-8 py-8 lg:px-16 lg:py-16 gap-8 lg:gap-16 items-center justify-center`}
     >
       <p className="text-white font-semibold text-2xl lg:text-4xl leading-relaxed lg:leading-relaxed tracking-tight">
         Ask Something?
