@@ -1,21 +1,21 @@
-import PR from "@/components/app/pr";
-import HE from "@/components/app/he";
-import RE from "@/components/app/re";
-import SK from "@/components/app/sk";
-import TM from "@/components/app/tm";
-import CL from "@/components/app/cl";
-import FT from "@/components/utility/ft";
+import Hero from "@/components/app/hero";
+import Dive from "@/components/app/dive";
+import Skills from "@/components/app/skills";
+import Ask from "@/components/app/ask";
+import Projects from "@/components/app/projects";
+import Collaborate from "@/components/app/collaborate";
+import Footer from "@/components/app/footer";
 
 export default function App() {
   return (
     <>
-      <HE />
-      <RE />
-      <SK />
-      <TM />
-      <PR />
-      <CL />
-      <FT />
+      <Hero />
+      <Dive />
+      <Skills />
+      <Ask />
+      <Projects />
+      <Collaborate />
+      <Footer />
     </>
   );
 }

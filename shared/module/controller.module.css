@@ -1,25 +1,25 @@
-.cl {
-  background-color: #000000;
-}
-
-.he {
+.hero {
   background-color: black;
 }
 
-.pr {
-  background-color: black;
-}
-
-.re {
+.dive {
   background-color: #09090b;
 }
 
-.sk {
+.skills {
   background-color: #09090b;
 }
 
-.tm {
+.ask {
   background-image: url("../assets/curvedstripe.svg");
   background-size: cover;
   background-attachment: fixed;
+}
+
+.projects {
+  background-color: black;
+}
+
+.collaborate {
+  background-color: #000000;
 }
