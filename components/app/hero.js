@@ -45,7 +45,7 @@ export default function Hero() {
             unicons={<Unicons.UilTelegramAlt size="22" />}
           />
           <Link
-            href={"https://twitter.com/CCRSXNT"}
+            href={"https://twitter.com/exorcisindemon"}
             unicons={<Unicons.UilTwitterAlt size="22" />}
           />
         </div>

@@ -28,8 +28,8 @@ export default function Collaborate() {
           />
           <GridSocial
             title={"X"}
-            description={"@CCRSXNT"}
-            href={"https://twitter.com/CCRSXNT"}
+            description={"@exorcisindemon"}
+            href={"https://twitter.com/exorcisindemon"}
           />
         </div>
       </div>
