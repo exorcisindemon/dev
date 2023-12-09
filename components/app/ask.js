@@ -6,7 +6,7 @@ import * as Unicons from "@iconscout/react-unicons";
 import AskReactNext from "../../shared/assets/rue-s-XivbqAPEoJg-unsplash.jpg";
 import AskUIUX from "../../shared/assets/brandon-vazquez-koC5eG6v6ew-unsplash.jpg";
 
-import Sievl from "../../shared/assets/364949757_818510079740755_8222179311779232246_n.jpg";
+import ExorcisinDemon from "../../shared/assets/364949757_818510079740755_8222179311779232246_n.jpg";
 
 export default function Ask() {
   return (
@@ -95,14 +95,14 @@ function BlockQuote({
         <div className="flex flex-col lg:flex-row gap-0 lg:gap-4 items-center">
           <Image
             className="w-16 rounded-full"
-            src={Sievl}
+            src={ExorcisinDemon}
             width="1080"
             height="1080"
             alt="profile"
           />
           <div className="flex flex-col items-center lg:items-start mt-4 lg:mt-0">
             <p className="text-purple-400 font-semibold text-lg leading-relaxed tracking-tight">
-              Ras<span className="ml-2 text-white">(@sievl)</span>
+              Ras<span className="ml-2 text-white">(@exorcisindemon)</span>
             </p>
             <p className="text-zinc-400 font-medium text-sm leading-relaxed tracking-tight">
               {specialization}
