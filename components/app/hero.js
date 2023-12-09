@@ -25,7 +25,7 @@ export default function Hero() {
         </h2>
         <div className="flex flex-row gap-4 w-full lg:w-auto overflow-x-auto lg:overflow-x-hidden">
           <Link
-            href={"https://github.com/sievl"}
+            href={"https://github.com/exorcisindemon"}
             unicons={<Unicons.UilGithubAlt size="22" />}
           />
           <Link
