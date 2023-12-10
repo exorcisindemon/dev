@@ -11,11 +11,10 @@ export default function Hero() {
       className={`${style.hero} flex flex-col lg:flex-row w-full h-full lg:h-[800px] px-8 pt-8 pb-0 lg:px-8 lg:pt-0 lg:pb-0 gap-8 items-center justify-center`}
     >
       <div className="flex flex-col w-full lg:w-[40%] lg:pb-8">
-        <h1 className="text-white font-semibold text-2xl lg:text-4xl leading-relaxed lg:leading-relaxed tracking-tight">
-          I&apos;m introducing myself as{" "}
-          <span className="text-pink-400">@exorcisindemon</span>.
-          <br />
-          <br />
+        <h2 className="mt-0 text-white font-medium text-lg lg:text-2xl leading-relaxed lg:leading-relaxed tracking-tight">
+          I&apos;m <span className="text-pink-400">@exorcisindemon</span> —
+        </h2>
+        <h1 className="mt-8 text-white font-semibold text-2xl lg:text-4xl leading-relaxed lg:leading-relaxed tracking-tight">
           The <span className="text-purple-400">JSX</span>,{" "}
           <span className="text-purple-400">React.js</span> Maven,{" "}
           <span className="text-purple-400">Next.js</span> Virtuoso, and the iOS
