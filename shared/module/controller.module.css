@@ -2,6 +2,13 @@
   background-color: black;
 }
 
+.announcement {
+  background-image: url("../assets/RESERVA.svg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
 .dive {
   background-color: #09090b;
 }
@@ -14,6 +21,7 @@
   background-image: url("../assets/curvedstripe.svg");
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
 }
 
 .projects {

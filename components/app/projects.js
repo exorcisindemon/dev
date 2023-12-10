@@ -17,10 +17,10 @@ export default function Projects() {
         </div>
         <div className="flex flex-col lg:flex-row gap-0 lg:gap-16 w-full">
           <List
-            title={"Reserva"}
+            title={"RESERVA"}
             category={"Next.js Ongoing Project"}
             description={
-              "In the ever-evolving world of scientific research and experimentation, maintaining precise control over equipment, consumables, and data is paramount. Reserva is here to help you meet these challenges head-on and transform your laboratory operations."
+              "In the ever-evolving world of scientific research and experimentation, maintaining precise control over equipment, consumables, and data is paramount. RESERVA is here to help you meet these challenges head-on and transform your laboratory operations."
             }
           />
           <List

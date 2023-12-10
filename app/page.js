@@ -1,4 +1,5 @@
 import Hero from "@/components/app/hero";
+import Announcement from "@/components/app/announcement";
 import Dive from "@/components/app/dive";
 import Skills from "@/components/app/skills";
 import Ask from "@/components/app/ask";
@@ -10,6 +11,7 @@ export default function App() {
   return (
     <>
       <Hero />
+      <Announcement />
       <Dive />
       <Skills />
       <Ask />
