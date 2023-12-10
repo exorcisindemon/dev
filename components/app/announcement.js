@@ -1,13 +1,9 @@
-import Image from "next/image";
-
 import style from "../../shared/module/controller.module.css";
-
-import RESERVA from "../../shared/assets/RESERVA.svg";
 
 export default function Announcement() {
   return (
     <section
-      className={`${style.announcement} flex flex-col lg:flex-row w-full h-full px-8 py-8 lg:px-16 lg:py-32 gap-8 lg:gap-16 items-center justify-center`}
+      className={`${style.announcement} flex flex-col lg:flex-row w-full h-screen lg:h-full px-8 py-8 lg:px-16 lg:py-32 gap-8 lg:gap-16 items-center justify-center`}
     >
       <div className="flex flex-col gap-8 w-full items-center">
         <h1 className="text-white font-semibold text-2xl lg:text-4xl leading-relaxed lg:leading-relaxed tracking-tight">
