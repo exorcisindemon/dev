@@ -18,12 +18,12 @@ export default function Announcement() {
           </p>
           <a
             href="https://pre-reserva.vercel.app/"
-            className="mt-0 text-white font-medium text-sm lg:text-lg leading-relaxed lg:leading-relaxed tracking-tight text-center transition-all hover:text-purple-400"
+            className="bg-purple-400/20 mt-0 text-white font-medium text-sm lg:text-lg leading-relaxed lg:leading-relaxed tracking-tight text-center transition-all hover:text-purple-400 px-4 py-2 rounded-full"
           >
             https://pre-reserva.vercel.app/
           </a>
           <p className="mt-0 text-white font-medium text-sm lg:text-lg leading-relaxed lg:leading-relaxed tracking-tight text-center">
-            <span className="text-purple-400">2a8560f</span> •{" "}
+            <span className="text-purple-400">211b90e</span> •{" "}
             <span className="text-purple-400">update</span>
           </p>
         </div>
