@@ -22,6 +22,7 @@ export default function Projects() {
             description={
               "In the ever-evolving world of scientific research and experimentation, maintaining precise control over equipment, consumables, and data is paramount. RESERVA is here to help you meet these challenges head-on and transform your laboratory operations."
             }
+            href={"https://pre-reserva.vercel.app/"}
           />
           <List
             title={"Travl"}
@@ -62,7 +63,7 @@ export default function Projects() {
   );
 }
 
-function List({ title, category, description }) {
+function List({ title, category, description, href }) {
   return (
     <div className="flex flex-col w-full items-start justify-start ring-1 ring-zinc-800 mt-8 lg:mt-0 transition-all hover:lg:ring-zinc-400">
       <p className="mx-8 mt-8 text-purple-400 font-semibold text-lg lg:text-2xl leading-relaxed lg:leading-relaxed tracking-tight">
@@ -74,20 +75,14 @@ function List({ title, category, description }) {
       <p className="mx-8 mt-4 text-zinc-400 font-medium text-sm lg:text-lg leading-relaxed lg:leading-relaxed tracking-tight text-justify">
         {description}
       </p>
-      <SeeProject href={"/"} />
+      <a
+        href={href}
+        className="flex flex-row gap-4 mx-8 mb-8 mt-4 text-white font-medium text-sm lg:text-lg leading-relaxed lg:leading-relaxed tracking-tight items-center transition-all hover:text-purple-400"
+      >
+        See Project
+        <Unicons.UilArrowUpRight className="flex lg:hidden" size="18" />
+        <Unicons.UilArrowUpRight className="hidden lg:flex" size="22" />
+      </a>
     </div>
-  );
-}
-
-function SeeProject({ href }) {
-  return (
-    <a
-      href={href}
-      className="flex flex-row gap-4 mx-8 mb-8 mt-4 text-white font-medium text-sm lg:text-lg leading-relaxed lg:leading-relaxed tracking-tight items-center transition-all hover:text-purple-400"
-    >
-      See Project
-      <Unicons.UilArrowUpRight className="flex lg:hidden" size="18" />
-      <Unicons.UilArrowUpRight className="hidden lg:flex" size="22" />
-    </a>
   );
 }

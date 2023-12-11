@@ -90,7 +90,7 @@ function BlockQuote({
   app,
 }) {
   return (
-    <blockquote className="bg-black flex flex-col p-8 w-full lg:w-[480px] rounded-2xl">
+    <blockquote className="bg-black/20 flex flex-col p-8 w-full lg:w-[480px] rounded-2xl">
       <div className="flex flex-col lg:flex-row items-center justify-between">
         <div className="flex flex-col lg:flex-row gap-0 lg:gap-4 items-center">
           <Image
