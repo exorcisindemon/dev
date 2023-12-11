@@ -42,17 +42,18 @@ export default function Banner() {
           @exorcisindemon
         </label>
         <label className="hidden lg:flex text-zinc-400 font-semibold text-sm leading-relaxed tracking-tight">
+          ◦
+        </label>
+        <label className="text-white font-semibold text-sm leading-relaxed tracking-tight">
+          RESERVA
+        </label>
+        <label className="hidden lg:flex text-zinc-400 font-semibold text-sm leading-relaxed tracking-tight">
           —
         </label>
-        <div className="flex flex-col lg:flex-row gap-4 items-center justify-center bg-gradient-to-br from-pink-400 to-fuchsia-400 bg-clip-text text-transparent">
-          <label className="font-semibold text-sm leading-relaxed tracking-tight">
-            Pre-Launching of RESERVA
-          </label>
-          <label className="font-semibold text-sm leading-relaxed tracking-tight">
-            Expected to be done at {timer.days}d {timer.hours}h {timer.minutes}m{" "}
-            {timer.seconds}s
-          </label>
-        </div>
+        <label className="bg-gradient-to-br from-pink-400 to-fuchsia-400 bg-clip-text text-transparent font-semibold text-sm leading-relaxed tracking-tight">
+          Expected to be done at {timer.days}d {timer.hours}h {timer.minutes}m{" "}
+          {timer.seconds}s
+        </label>
       </div>
     </section>
   );
