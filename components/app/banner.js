@@ -38,11 +38,16 @@ export default function Banner() {
 
   return (
     <section
-      className={`${style.banner} flex flex-col lg:flex-row w-full h-full px-8 py-8 lg:px-16 lg:py-2 gap-8 lg:gap-16 items-center justify-center`}
+      className={`${style.banner} flex flex-col lg:flex-row w-full h-full px-8 py-16 lg:px-16 lg:py-2 gap-8 lg:gap-16 items-center justify-center`}
     >
-      <div className="flex flex-col lg:flex-row gap-4 w-full items-center justify-center">
-        <label className="text-black font-medium text-sm leading-relaxed tracking-tight text-center">
+      <div className="flex flex-col lg:flex-row gap-8 lg:gap-4 w-full items-start lg:items-center justify-center">
+        <label className="text-black font-semibold lg:font-medium text-2xl lg:text-sm leading-relaxed tracking-tight text-start lg:text-center">
           Capture the Essence of Research and Development of RESERVA
+        </label>
+        <label className="flex lg:hidden text-black font-normal lg:font-medium text-sm leading-relaxed tracking-tight text-start lg:text-center">
+          Your comprehensive laboratory asset management solution! RESERVA is a
+          cutting-edge application designed to streamline and optimize the
+          management of assets within your laboratory environment.
         </label>
         <label className="hidden lg:flex text-black font-medium text-sm leading-relaxed tracking-tight">
           ◦
