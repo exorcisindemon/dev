@@ -1,7 +1,7 @@
 "use client";
 
 import style from "../../shared/module/controller.module.css";
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 
 export default function Banner() {
   const [announcement, setAnnouncement] = useState(false);
@@ -25,6 +25,8 @@ export default function Banner() {
 
     return { days, hours, minutes, seconds };
   }
+
+  const fixedTimer = `${timer.days}d ${timer.hours}h ${timer.minutes}m ${timer.seconds}s`;
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -56,11 +58,10 @@ export default function Banner() {
         >
           {announcement
             ? "See you when it's ready"
-            : `Expected to be done at ${timer.days}d ${timer.hours}h ${timer.minutes}m ${timer.seconds}s`}
+            : `Expected to be done at ${fixedTimer}`}
         </label>
         <label className="flex lg:hidden transition-all bg-black text-white text-center px-4 py-2 font-medium text-sm leading-relaxed tracking-tight rounded-full">
-          Expected to be done at {timer.days}d {timer.hours}h {timer.minutes}m{" "}
-          {timer.seconds}s
+          Expected to be done at {fixedTimer}
         </label>
       </div>
     </section>
