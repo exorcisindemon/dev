@@ -44,7 +44,7 @@ export default function Banner() {
         <label className="hidden lg:flex text-black font-medium text-sm leading-relaxed tracking-tight">
           ◦
         </label>
-        <label onHover className="transition-all bg-black hover:bg-white text-white hover:text-black px-4 py-2 font-medium text-sm leading-relaxed tracking-tight rounded-full">
+        <label className="transition-all bg-black hover:bg-white text-white hover:text-black px-4 py-2 font-medium text-sm leading-relaxed tracking-tight rounded-full">
           Expected to be done at {timer.days}d {timer.hours}h {timer.minutes}m{" "}
           {timer.seconds}s
         </label>
