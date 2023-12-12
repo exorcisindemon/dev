@@ -6,7 +6,10 @@
 }
 
 .hero {
-  background-color: black;
+  background-image: url("../assets/hero.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .announcement {
