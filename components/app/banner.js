@@ -1,7 +1,7 @@
 "use client";
 
 import style from "../../shared/module/controller.module.css";
-import { useState, useEffect, Suspense } from "react";
+import { useState, useEffect } from "react";
 
 export default function Banner() {
   const [announcement, setAnnouncement] = useState(false);
