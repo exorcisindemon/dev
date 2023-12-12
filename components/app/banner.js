@@ -35,22 +35,16 @@ export default function Banner() {
 
   return (
     <section
-      className={`${style.banner} flex flex-col lg:flex-row w-full h-full px-8 py-8 lg:px-16 lg:py-4 gap-8 lg:gap-16 items-center justify-center`}
+      className={`${style.banner} flex flex-col lg:flex-row w-full h-full px-8 py-8 lg:px-16 lg:py-2 gap-8 lg:gap-16 items-center justify-center`}
     >
       <div className="flex flex-col lg:flex-row gap-4 w-full items-center justify-center">
-        <label className="hidden lg:flex text-white font-semibold text-sm leading-relaxed tracking-tight">
-          @exorcisindemon
+        <label className="text-black font-medium text-sm leading-relaxed tracking-tight text-center">
+          Capture the Essence of Research and Development of RESERVA
         </label>
-        <label className="hidden lg:flex text-zinc-400 font-semibold text-sm leading-relaxed tracking-tight">
+        <label className="hidden lg:flex text-black font-medium text-sm leading-relaxed tracking-tight">
           ◦
         </label>
-        <label className="text-white font-semibold text-sm leading-relaxed tracking-tight">
-          RESERVA
-        </label>
-        <label className="hidden lg:flex text-zinc-400 font-semibold text-sm leading-relaxed tracking-tight">
-          —
-        </label>
-        <label className="bg-gradient-to-br from-pink-400 to-fuchsia-400 bg-clip-text text-transparent font-semibold text-sm leading-relaxed tracking-tight">
+        <label onHover className="transition-all bg-black hover:bg-white text-white hover:text-black px-4 py-2 font-medium text-sm leading-relaxed tracking-tight rounded-full">
           Expected to be done at {timer.days}d {timer.hours}h {timer.minutes}m{" "}
           {timer.seconds}s
         </label>
