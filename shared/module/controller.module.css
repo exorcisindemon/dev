@@ -6,7 +6,6 @@
 }
 
 .hero {
-  background-image: url("../assets/hero.png");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -19,6 +18,11 @@
 }
 
 @media (max-width: 767px) {
+  .hero {
+    background-color: black;
+    background-image: none;
+  }
+
   .announcement {
     background-color: black;
     background-image: none;
@@ -26,6 +30,11 @@
 }
 
 @media (min-width: 768px) {
+  .hero {
+    background-color: transparent;
+    background-image: url("../assets/hero.png");
+  }
+
   .announcement {
     background-color: transparent;
     background-image: url("../assets/RESERVA.png");
