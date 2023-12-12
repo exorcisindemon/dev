@@ -4,6 +4,7 @@ import style from "../../shared/module/controller.module.css";
 import { useState, useEffect } from "react";
 
 export default function Banner() {
+  const [announcement, setAnnouncement] = useState(false);
   const launchDate = new Date("March 1, 2024 00:00:00 GMT+0000");
   const [timer, setTimer] = useState(timeRemaining());
 
@@ -44,7 +45,20 @@ export default function Banner() {
         <label className="hidden lg:flex text-black font-medium text-sm leading-relaxed tracking-tight">
           ◦
         </label>
-        <label className="transition-all bg-black hover:bg-white text-white hover:text-black px-4 py-2 font-medium text-sm leading-relaxed tracking-tight rounded-full">
+        <label
+          className={`hidden lg:flex justify-center transition-all ${
+            announcement
+              ? "bg-white text-black w-80"
+              : "bg-black text-white w-80"
+          } px-4 py-2 font-medium text-sm leading-relaxed tracking-tight rounded-full`}
+          onMouseEnter={() => setAnnouncement(true)}
+          onMouseLeave={() => setAnnouncement(false)}
+        >
+          {announcement
+            ? "See you when it's ready"
+            : `Expected to be done at ${timer.days}d ${timer.hours}h ${timer.minutes}m ${timer.seconds}s`}
+        </label>
+        <label className="flex lg:hidden transition-all bg-black text-white text-center px-4 py-2 font-medium text-sm leading-relaxed tracking-tight rounded-full">
           Expected to be done at {timer.days}d {timer.hours}h {timer.minutes}m{" "}
           {timer.seconds}s
         </label>
