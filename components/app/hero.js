@@ -3,7 +3,7 @@ import Image from "next/image";
 import style from "../../shared/module/controller.module.css";
 import * as Unicons from "@iconscout/react-unicons";
 
-import CryptCen from "../../shared/assets/cryptcen.svg";
+import Macbook from "../../shared/assets/macbook.svg";
 
 export default function Hero() {
   return (
@@ -54,7 +54,7 @@ export default function Hero() {
         </p>
       </div>
       <div className="flex flex-col w-full lg:w-[30%] h-full justify-center overflow-y-hidden">
-        <Image src={CryptCen} width="1680" height="2580" alt="cryptcen" />
+        <Image src={Macbook} width="2580" height="2580" alt="macbook" />
       </div>
     </section>
   );
